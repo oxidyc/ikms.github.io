@@ -51,3 +51,20 @@ footer .foot_menu .foot_pad-top{padding: 10px 0;}
     border-radius:3px; z-index:500;
 }
 .go-top:hover { background-color:rgba(0, 0, 0, 0.6);}
+
+
+
+
+/* Flat Color */
+.bg_grapefruit_dark{background: #da4453;}
+.bg_grapefruit{background: #ed5565;}
+.bg_bittersweet_dark{background: #e9573f;}
+.bg_bittersweet{background: #fc6e51;}
+.bg_sunflower_dark{background: #f6bb42;}
+.bg_sunflower{background: #FFCE54;}
+.bg_grass_dark{background: #8cc152;}
+.bg_grass{background: #A0D468;}
+.bg_mint_dark{background: #37bc98;}
+.bg_mint{background: #48cfad;}
+.bg_bluejeans_dark{background: #4a89dc;}
+.bg_bluejeans{background: #5d9cec;}
