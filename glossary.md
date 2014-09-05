@@ -3,6 +3,7 @@ layout: post
 title: Glossary术语表
 ---
 
+<div class="container">
 ##A##
 
 ##B##
@@ -54,3 +55,4 @@ title: Glossary术语表
 ##Y##
 
 ##Z## 
+</div>
