@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Glossary术语表
 ---
 
@@ -53,7 +53,4 @@ title: Glossary术语表
 
 ##Y##
 
-##Z##
-
-
-
+##Z## 
