@@ -2,22 +2,19 @@
 layout: default
 title: CMS
 ---
+<section class="pad-top">
+    <div class="myslider">
+        <a href="#"><img src="images/technically_training.PNG" alt="技术培训" /></a>
+        <a href="#"><img src="images/sonar.PNG" alt="Sonar技术文档"/></a>
+    </div>
+</section>
+<section>
+    {% for post in site.posts %}
 
-<div class="container">
-    <section class="pad-top">
-        <div class="myslider">
-            <a href="#"><img src="images/technically_training.PNG" alt="技术培训" /></a>
-            <a href="#"><img src="images/sonar.PNG" alt="Sonar技术文档"/></a>
-        </div>
-    </section>
-    <section>
-        {% for post in site.posts %}
+    <h2><a href="{{ post.id }}">{{ post.title }}</a><small>{{ post.date | date_to_string }}</small></h2>
 
-        <h2><a href="{{ post.id }}">{{ post.title }}</a><small>{{ post.date | date_to_string }}</small></h2>
-
-        {% endfor %}
-    </section>
-</div>
+    {% endfor %}
+</section>
 
 
 
