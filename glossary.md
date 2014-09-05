@@ -1,7 +1,7 @@
 ---
 layout: post
 nav: default
-date: 2003.08.30
+createDate: 2003.08.30
 title: Glossary术语表
 desc: Documents about program language, word.
 bgclass: bg_lavander_dark
