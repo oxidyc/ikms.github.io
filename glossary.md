@@ -2,7 +2,7 @@
 layout: post
 title: Glossary术语表
 nav: default
-bgclass: bg_pinkrose_dark
+bgclass: bg_grapefruit_dark
 ---
 
 
