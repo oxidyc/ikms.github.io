@@ -11,14 +11,14 @@ title: CMS
 <section>
     {% for post in site.posts %}
 
-    <h2><a href="{{ post.id }}">{{ post.title }}</a><small>{{ post.date | date_to_string }}</small></h2>
+    <h2><span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x grapefruit_dark"></i>
+  <i class="fa fa-stack-1x fa-inverse">{{ post.index }}</i>
+</span> <a href="{{ post.id }}">{{ post.title }}</a><small>{{ post.date | date_to_string }}</small></h2>
 
     {% endfor %}
 </section>
 
-<span class="fa-stack fa-lg">
-  <i class="fa fa-circle fa-stack-1x" style="color: red;"></i>
-  <i class="fa fa-stack-1x fa-inverse">1</i>
-</span>
+
 
 
