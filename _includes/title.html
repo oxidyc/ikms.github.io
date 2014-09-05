@@ -1,6 +1,10 @@
 <!-- HEADER -->
-<div class="bs_header">
+<div class="bs_header {{ page.bgclass }}">
+    {% if page.nav == "technology" %}
     {% include nav/technology.html %}
+    {% else if page.nav=="life" %}
+    {% include nav/life.html %}
+    {% endif %}
     <div class="container">
         <div class="row">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-2"><a href="#"><i class="fa fa-5x fa-edit logo"></i></a></div>

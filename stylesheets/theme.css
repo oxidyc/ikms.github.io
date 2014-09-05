@@ -19,7 +19,7 @@ header {
     height: 160px;
 }
 
-.bs_header{color: #f5f7fa; background: #3bafda;margin: 0 auto;min-height: 86px;width: 100%;z-index: 1000}
+.bs_header{color: #f5f7fa; margin: 0 auto;min-height: 86px;width: 100%;z-index: 1000}
 .bs_header h1 {font-weight: 700;}
 
 .logo{padding: 20px 0 0 10px;}
@@ -66,5 +66,17 @@ footer .foot_menu .foot_pad-top{padding: 10px 0;}
 .bg_grass{background: #A0D468;}
 .bg_mint_dark{background: #37bc98;}
 .bg_mint{background: #48cfad;}
+.bg_aqua_dark{background: #3bafda;}
+.bg_aqua{background: #4fc1e9;}
 .bg_bluejeans_dark{background: #4a89dc;}
 .bg_bluejeans{background: #5d9cec;}
+.bg_lavander_dark{background: #967adc;}
+.bg_lavander{background: #ac92ec;}
+.bg_pinkrose_dark{background: #dd70ad;}
+.bg_pinkrose{background: #ec87c0;}
+.bg_lightgray_dark{background: #e6e9ed;}
+.bg_lightgray{background: #f5f7fa}
+.bg_mediumgray_dark{background: #aab2bd;}
+.bg_mediumgray{background: #ccd1d9;}
+.bg_darkgray_dark{background: #434a54;}
+.bg_darkgray{background: #656d78;}
