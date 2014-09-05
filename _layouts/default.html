@@ -1,10 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="http://libs.baidu.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://libs.baidu.com/fontawesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../stylesheets/theme.css">
+    <link rel="stylesheet" href="../stylesheets/nerveslider.css" media="screen"/>
     <title>{{page.title}}</title>
-  </head>
-  <body>
-  <h1>2014</h1>
-    {{content}}
-  </body>
+</head>
+<body>
+
+{{content}}
+
+<!-- up to top -->
+<a href="#"><i class="go-top hidden-xs hidden-sm hidden-print fa fa-angle-double-up"></i></a>
+<!--//end-->
+<!-- SCRIPT -->
+
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://libs.baidu.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="../javascripts/scripts.js"></script>
+
+<script src="../javascripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="../javascripts/jquery.nerveSlider.min.js"></script>
+<script>
+    //<![CDATA[
+    $(document).ready(function() {
+        $(".myslider").show();
+        $(".myslider").startslider({
+            sliderWidth:1170,
+            sliderHeight:422,
+            slideTransitionSpeed: 2000,
+            slideTransitionEasing: "easeOutExpo",
+            slidesDraggable: true,
+            sliderResizable: true,
+            showArrows: true
+        });
+    });
+    //]]>
+</script>
+</body>
 </html>
