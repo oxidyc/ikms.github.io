@@ -2,7 +2,8 @@
 <div class="bs_header {{ page.bgclass }}">
     {% if page.nav == "technology" %}
     {% include nav/technology.html %}
-    {% elseif page.nav=="life" %}
+    {% endif %}
+    {% if page.nav == "life" %}
     {% include nav/life.html %}
     {% endif %}
     <div class="container">
