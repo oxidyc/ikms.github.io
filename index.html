@@ -14,8 +14,8 @@ title: CMS
     {% for post in site.posts %}
     <div class="col-lg-12">
      <a href="{{ post.id }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-        [<small>{{ post.date | date_to_string }}</small>]
+       <!-- {{ post.excerpt }}-->
+        [<small>{{ post.date | date: "%F" }}</small>]
     </div>
     {% endfor %}
 </section>
