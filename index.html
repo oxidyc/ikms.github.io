@@ -11,13 +11,16 @@ title: CMS
 </section>
 -->
 <section>
-    {% for post in site.posts %}
-    <div class="col-lg-12 bg_aqua">
-        <h3>[<small>{{ post.date | date: "%F" }}</small>] <a href="{{ post.id }}">{{ post.title }}</a></h3>
-       <!-- {{ post.excerpt }}-->
+    <div class="row">
+        {% for post in site.posts %}
+        <div class="col-lg-12 bg_aqua">
+            <h3>[<small>{{ post.date | date: "%F" }}</small>] <a href="{{ post.id }}">{{ post.title }}</a></h3>
+            <!-- {{ post.excerpt }}-->
 
+        </div><br>
+        {% endfor %}
     </div>
-    {% endfor %}
+
 </section>
 
 
