@@ -14,8 +14,9 @@ title: CMS
     <div class="col-lg-9">
         <section style="margin:5px 0;">
             <div class="row">
+                <div class="page-header">Documents:</div>
                 {% for post in site.posts %}
-                <div class="col-lg-12 bg_mediumgray" style="margin: 10px 0;">
+                <div class="col-lg-12 bg_mediumgray" style="margin: 5px 0;">
                     <small>{{ post.date | date: "%F" }}</small> <a href="{{ post.id }}">{{ post.title }}</a>
                     <!-- {{ post.excerpt }}-->
 
