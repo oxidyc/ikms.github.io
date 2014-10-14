@@ -12,10 +12,11 @@ title: CMS
 -->
 <section>
     {% for post in site.posts %}
-    <div class="col-lg-12">
-     <a href="{{ post.id }}">{{ post.title }}</a>
-       <!-- {{ post.excerpt }}-->
+    <div class="col-lg-12 bg_aqua">
         [<small>{{ post.date | date: "%F" }}</small>]
+        <h3><a href="{{ post.id }}">{{ post.title }}</a></h3>
+       <!-- {{ post.excerpt }}-->
+
     </div>
     {% endfor %}
 </section>
