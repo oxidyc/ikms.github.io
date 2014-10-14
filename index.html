@@ -13,13 +13,9 @@ title: CMS
 <section>
     {% for post in site.posts %}
     <div class="col-lg-12">
-        <!--
-    <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x grapefruit_dark"></i>
-      <i class="fa fa-stack-1x fa-inverse">1</i>
-    </span>
-        -->
-       <h3> <a href="{{ post.id }}">{{ post.title }}</a><small>{{ post.date | date_to_string }}</small></h3>
+     <a href="{{ post.id }}">{{ post.title }}</a>
+        {{ post.excerpt }}
+        [<small>{{ post.date | date_to_string }}</small>]
     </div>
     {% endfor %}
 </section>
